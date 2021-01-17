@@ -4,7 +4,7 @@ This repository contains a Python script that lets you relocate files automatica
 
 ## How to use ?
 ### Clone the repository:
-Enter your desired folder and execute this command:
+Enter your desired folder and execute this command: <br>
 `git clone https://github.com/aime-risson/pyFileManager.git`
 
 ### Set up the manager:
