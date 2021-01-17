@@ -7,6 +7,10 @@ This repository contains a Python script that lets you relocate files automatica
 Enter your desired folder and execute this command: <br>
 `git clone https://github.com/aime-risson/pyFileManager.git`
 
+### Install requirements:
+Enter your pyFileManger folder and execute this command: <br>
+`pip3 install watchdog`
+
 ### Set up the manager:
 In the same directory create a new fille called `manager.py`
 <br>
