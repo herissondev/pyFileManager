@@ -31,3 +31,21 @@ extensionsToInclude = (".yourExtensionInLowerCase", ".jpg", ".png") #Tuple of st
 handler.newEvent(listeningFolder, relocateFolder, extensionsToInclude)
 
 ```
+You can use multiple events at the same time to "listen" to other folders, extensions ect...
+### Launch manager:
+To launch manager juste add this to your code:
+```python
+handler.start()
+```
+## Full code:
+```python
+from fileManager import MyHandler
+handler = MyHandler()
+
+listeningFolder = "Path/to/watched/folder" 
+relocateFolder = "Path/to/desired/folder" 
+extensionsToInclude = (".yourExtensionInLowerCase", ".jpg", ".png") #Tuple of strings !!!
+
+handler.newEvent(listeningFolder, relocateFolder, extensionsToInclude)
+handler.start()
+```
