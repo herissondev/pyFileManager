@@ -1,4 +1,3 @@
-#!/opt/homebrew/bin/python3
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import time
@@ -43,8 +42,4 @@ class MyHandler(FileSystemEventHandler):
         self.observers.stop()
 
 
-handler = MyHandler()
-handler.newEvent('/Users/aime/Downloads', '/Users/aime/Downloads/PDF', ('.pdf' ) )
-handler.newEvent('/Users/aime/Downloads', '/Users/aime/Downloads/IMAGES', ('.png', '.jpg', '.heic' ) )
 
-handler.start()
